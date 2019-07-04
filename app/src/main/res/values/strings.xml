@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SMAC thực tập</string>
+    <string name="day_one">Day One</string>
+    <string name="info_student">Info student</string>
+    <string name="submit">Submit</string>
+    <string name="conduct_student">Conduct student:</string>
+    <string name="good">Good</string>
+    <string name="rather">Rather</string>
+    <string name="least">Least</string>
+    <string name="status">Status:</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment2">Hello blank fragment2</string>
+    <string name="alert_dialog">Đây là AlerDialog</string>
+</resources>
