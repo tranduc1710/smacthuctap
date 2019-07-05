@@ -8,9 +8,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.tranduc.smacthuctap.model.MainActivity;
+import com.tranduc.smacthuctap.view.DayEight.DayEight;
 import com.tranduc.smacthuctap.view.DayFive.DayFive;
 import com.tranduc.smacthuctap.view.DayFour.DayFour;
 import com.tranduc.smacthuctap.view.DayOne.DayOne;
+import com.tranduc.smacthuctap.view.DaySix.DaySix;
 import com.tranduc.smacthuctap.view.DayThree.DayThree;
 import com.tranduc.smacthuctap.view.DayTwo.DayTwo;
 
@@ -77,13 +79,13 @@ public class MainActivityPresenter {
                 intent = new Intent(context, DayFive.class);
                 break;
             case MainActivity.menuScreen.DaySix:
-//                intent = new Intent(context, );
+                intent = new Intent(context, DaySix.class);
                 break;
             case MainActivity.menuScreen.DaySeven:
-//                intent = new Intent(context, );
+                intent = new Intent(context, DaySix.class);
                 break;
             case MainActivity.menuScreen.DayEight:
-//                intent = new Intent(context, );
+                intent = new Intent(context, DayEight.class);
                 break;
             case MainActivity.menuScreen.DayNine:
 //                intent = new Intent(context, );
