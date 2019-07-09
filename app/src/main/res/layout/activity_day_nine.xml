@@ -7,4 +7,8 @@
     android:orientation="vertical"
     tools:context=".view.DayNine.DayNine">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRetrofit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>

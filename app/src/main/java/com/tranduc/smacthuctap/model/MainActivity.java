@@ -11,6 +11,7 @@ public class MainActivity {
         String DaySeven = "DaySeven";
         String DayEight = "DayEight";
         String DayNine = "DayNine";
+        String Canvas = "CanvasActivity";
     }
     private String screen, name;
 
