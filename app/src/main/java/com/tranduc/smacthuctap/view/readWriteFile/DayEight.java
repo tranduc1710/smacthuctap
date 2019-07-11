@@ -1,6 +1,4 @@
-package com.tranduc.smacthuctap.view.DayEight;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.tranduc.smacthuctap.view.readWriteFile;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -9,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.tranduc.smacthuctap.R;
 

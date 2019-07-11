@@ -12,6 +12,7 @@ public class MainActivity {
         String DayEight = "DayEight";
         String DayNine = "DayNine";
         String Canvas = "CanvasActivity";
+        String DataBinding = "DataBinding";
     }
     private String screen, name;
 

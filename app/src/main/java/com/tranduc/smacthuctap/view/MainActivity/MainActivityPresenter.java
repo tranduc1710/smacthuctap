@@ -9,10 +9,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.tranduc.smacthuctap.model.MainActivity;
 import com.tranduc.smacthuctap.view.Canvas.CanvasActivity;
-import com.tranduc.smacthuctap.view.DayEight.DayEight;
-import com.tranduc.smacthuctap.view.DayFive.DayFive;
-import com.tranduc.smacthuctap.view.DayFour.DayFour;
-import com.tranduc.smacthuctap.view.DayNine.DayNine;
+import com.tranduc.smacthuctap.view.dataBinding.DataBindingActivity;
+import com.tranduc.smacthuctap.view.readWriteFile.DayEight;
+import com.tranduc.smacthuctap.view.asynctaskDialog.DayFive;
+import com.tranduc.smacthuctap.view.tabLayoutViewPager.DayFour;
+import com.tranduc.smacthuctap.view.retrofit.DayNine;
 import com.tranduc.smacthuctap.view.DayOne.DayOne;
 import com.tranduc.smacthuctap.view.DaySix.DaySix;
 import com.tranduc.smacthuctap.view.DayThree.DayThree;
@@ -47,6 +48,7 @@ public class MainActivityPresenter {
         activityList.add(new MainActivity(MainActivity.menuScreen.DayEight, "Day Eight"));
         activityList.add(new MainActivity(MainActivity.menuScreen.DayNine, "Day Nine"));
         activityList.add(new MainActivity(MainActivity.menuScreen.Canvas, "Canvas"));
+        activityList.add(new MainActivity(MainActivity.menuScreen.DataBinding, "DataBinding"));
 
         mainActivityAdapter = new MainActivityAdapter(activityList, context);
 
@@ -95,6 +97,9 @@ public class MainActivityPresenter {
                 break;
             case MainActivity.menuScreen.Canvas:
                 intent = new Intent(context, CanvasActivity.class);
+                break;
+            case MainActivity.menuScreen.DataBinding:
+                intent = new Intent(context, DataBindingActivity.class);
                 break;
         }
         activityContact.StartActivity(intent);

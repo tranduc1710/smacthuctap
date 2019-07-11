@@ -1,4 +1,4 @@
-package com.tranduc.smacthuctap.view.DayNine;
+package com.tranduc.smacthuctap.view.retrofit;
 
 import com.tranduc.smacthuctap.model.MoviesResponse;
 

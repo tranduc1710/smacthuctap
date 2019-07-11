@@ -1,4 +1,4 @@
-package com.tranduc.smacthuctap.view.DayNine;
+package com.tranduc.smacthuctap.view.retrofit;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

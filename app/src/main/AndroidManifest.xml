@@ -14,9 +14,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.Canvas.CanvasActivity"></activity>
-        <activity android:name=".view.DayNine.DayNine" />
-        <activity android:name=".view.DayEight.DayEight" />
+        <activity android:name=".view.dataBinding.DataBindingActivity"></activity>
+        <activity android:name=".view.Canvas.CanvasActivity" />
+        <activity android:name=".view.retrofit.DayNine" />
+        <activity android:name=".view.readWriteFile.DayEight" />
 
         <service
             android:name=".view.DaySix.PlayMusicService"
@@ -24,8 +25,8 @@
             android:exported="true" />
 
         <activity android:name=".view.DaySix.DaySix" />
-        <activity android:name=".view.DayFive.DayFive" />
-        <activity android:name=".view.DayFour.DayFour" />
+        <activity android:name=".view.asynctaskDialog.DayFive" />
+        <activity android:name=".view.tabLayoutViewPager.DayFour" />
         <activity android:name=".view.DayThree.DayThree" />
         <activity android:name=".view.DayTwo.DayTwo" />
         <activity android:name=".view.MainActivity.MainActivity">

@@ -1,4 +1,4 @@
-package com.tranduc.smacthuctap.view.DayFour;
+package com.tranduc.smacthuctap.view.tabLayoutViewPager;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;

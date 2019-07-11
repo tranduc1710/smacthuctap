@@ -1,14 +1,14 @@
-package com.tranduc.smacthuctap.view.DayFour;
+package com.tranduc.smacthuctap.view.tabLayoutViewPager;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import android.os.Bundle;
-
 import com.google.android.material.tabs.TabLayout;
 import com.tranduc.smacthuctap.R;
-import com.tranduc.smacthuctap.view.DayFour.Fragment.Tab1;
-import com.tranduc.smacthuctap.view.DayFour.Fragment.Tab2;
+import com.tranduc.smacthuctap.view.tabLayoutViewPager.Fragment.Tab1;
+import com.tranduc.smacthuctap.view.tabLayoutViewPager.Fragment.Tab2;
 
 public class DayFour extends AppCompatActivity {
     private TabLayout tabLayout;
